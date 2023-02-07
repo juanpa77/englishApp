@@ -13,7 +13,7 @@ import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
 import Main from './src/screens/Main';
-import MainStack from './src/navigation/MainStack';
+import MainStackScreen from './src/navigation/MainStack';
 
 type SectionProps = PropsWithChildren<{
   title: string,
@@ -54,7 +54,7 @@ function App(): JSX.Element {
 
   return (
     <SafeAreaView style={styles.sectionContainer}>
-      <MainStack />
+      <MainStackScreen />
     </SafeAreaView>
   );
 }

@@ -1,5 +1,5 @@
 import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
-import { NavigateProps, Screens } from '../types/navigations';
+import { NavigateProps, Screens } from '../types/navigation';
 
 type Props = {
   text?: string,

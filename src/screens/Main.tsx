@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import CardMode from '../components/cardMode';
-import { NavigateProps } from '../types/navigations';
+import { NavigateProps } from '../types/navigation';
 
 const Main = ({ route, navigation }: NavigateProps) => {
   console.log(navigation.navigate)
