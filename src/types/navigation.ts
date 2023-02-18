@@ -5,6 +5,7 @@ export type RootStackParamList = {
   Vocabulary: undefined
   lessons: undefined
   Modal: undefined
+  SignIn: undefined
 }
 
 export type Screens = keyof RootStackParamList
